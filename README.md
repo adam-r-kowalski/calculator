@@ -6,6 +6,7 @@
 1. Clone the repository
 ```bash
 git clone https://github.com/adam-r-kowalski/calculator.git
+cd calculator
 ```
 
 2. Start a repl
