@@ -20,11 +20,11 @@
 
 (defui Calculator
   static om/IQuery
-  (query [this] '[:display :buffer :clear-display :op :x :y])
+  (query [this] '[:display :buffer :clear-display :op])
   Object
   (render
    [this]
-   (let [{:keys [display buffer clear-display op x y]} (om/props this)]
+   (let [{:keys [display buffer clear-display op]} (om/props this)]
      (html
       [:div {:style container-styles}
        #_[:div {:style {:font-size "30px"}}

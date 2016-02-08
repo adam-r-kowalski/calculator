@@ -3641,6 +3641,7 @@ Compiling src/calculator/core.cljs
 Compiling target/figwheel_temp/dev/figwheel/connect.cljs
 notifying browser that file changed:  out/calculator/parser.js
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.329 seconds.[0m
+<<<<<<< HEAD
 [0mCompiling "resources/public/js/main.js" from ["src"]...
 Compiling src/calculator/parser.cljs
 Compiling src/calculator/core.cljs
@@ -4148,3 +4149,5 @@ Compiling src/calculator/core.cljs
 Compiling target/figwheel_temp/dev/figwheel/connect.cljs
 notifying browser that file changed:  out/calculator/core.js
 [32mSuccessfully compiled "resources/public/js/main.js" in 0.205 seconds.[0m
+=======
+>>>>>>> 48c40ed16653220296fc942adb3be96796ebecde
